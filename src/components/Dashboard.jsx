@@ -122,7 +122,8 @@ export default function Dashboard() {
             </Typography>
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
-                <NotificationsIcon />
+                <NotificationsIcon
+                onClick={() => alert("Hello!")} />
               </Badge>
             </IconButton>
           </Toolbar>
