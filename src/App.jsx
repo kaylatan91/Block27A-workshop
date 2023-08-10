@@ -6,6 +6,7 @@ import './data.js'
 import Dashboard from './components/Dashboard'
 import Transaction from './components/Transaction'
 import Title from './components/Title'
+
 // import { mainListItems } from './components/ListItems'
 // import { mockTransactions } from './data.js'
 
@@ -18,6 +19,7 @@ function App() {
     {/* <Transaction /> */}
     <Title />
     {/* { mainListItems } */}
+    <button onClick={() => alert("Hello!")}>Click Me</button>
     </>
   )
 }
